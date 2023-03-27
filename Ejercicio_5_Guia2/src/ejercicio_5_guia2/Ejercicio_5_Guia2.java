@@ -17,11 +17,11 @@ public class Ejercicio_5_Guia2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        double num;
+        int num;
         Scanner leer = new Scanner(System.in);
         
         System.out.println("Ingrese un numero");
-        num = leer.nextDouble();
+        num = leer.nextInt();
         
         System.out.println("El doble del numero imgresado es: " + num*2);
         System.out.println("El triple del numero imgresado es: " + num*3);
